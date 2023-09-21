@@ -19,16 +19,20 @@ def move_circle():
         glass.draw_now(400,30)
         character.draw_now(x, y)
         delay(0.01)
-    pass
 
 def move_rectangle():
-    print('rectangle')
+    for x in range(50,750+1,10):
+        clear_canvas_now()
+        glass.draw_now(400,30)
+        character.draw_now(x, 90)
+        delay(0.01)    
+    
     pass
 
 
 
 while True:
-    move_circle()
+    # move_circle()
     move_rectangle()
     break
     

@@ -1,0 +1,9 @@
+영어를 습관화
+Agile Software Development
+
+mainfile 수정 x -> small code test
+
+Make mecro_code 
+
+함수 뼈대 생성 후 pass
+

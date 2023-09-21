@@ -24,12 +24,17 @@ def move_circle():
         render_frame(x,y)
 
 def move_rectangle():
-    for x in range(50,750+1,10):
+    for x in range(50,750+1,10): #하단 좌->우
         render_frame(x,90)
-        
 
-    for x in range(750,50-1,-10):
-        render_frame(x,90)
+    for y in range(90, 510+1, 10): # 우측 하->상
+        render_frame(750,y)
+        
+    for x in range(750,50-1,-10): #상단 우->좌
+        render_frame(x,510)
+        
+    for y in range(510, 90-1, -10): # 좌측 상->하
+        render_frame(50,y)
         
 while True:
     #move_circle()
